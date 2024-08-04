@@ -1,0 +1,23 @@
+Architecture : 32 bit binary
+
+Hash Value : 
+
+Sections : 
+
+('UPX0', '0x26000', '0x0', 'True')
+
+('UPX1', '0xc000', '0xbe00', 'True')
+
+('.rsrc', '0x2000', '0x1200', 'True')
+
+Malicious API : 
+('RegCloseKey', 'RegCloseKey is used to close a handle to the specified registry key.', 'Helper')
+
+('LoadLibraryA', 'LoadLibraryA is used to load a specified module into the address space of the calling process. Malware commonly use this to load DLLs dynamically for evasion purposes.', 'Injection Evasion')
+
+('GetProcAddress', 'GetProcAddress is used to get the memory address of a function in a DLL. This is often used by malware for obfuscation and evasion purposes to avoid having to call the function directly.', 'Injection Evasion')
+
+('VirtualProtect', 'VirtualProtect is often used by malware to modify memory protection (often to allow write or execution).', 'Injection')
+
+('GetDC', 'GetDC is used to retrieve a handle to a device context (DC) for the client area of a specified window or for the entire screen. This function is commonly used by spyware for taking screenshots.', 'Spying')
+

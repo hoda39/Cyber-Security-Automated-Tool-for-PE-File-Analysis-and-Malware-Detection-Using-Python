@@ -1,0 +1,2061 @@
+!This program cannot be run in DOS mode.
+{5Rich
+9f;=Pt!j|
+o;zuWh
++90u2h
+zDuo/A
+tq.{uN
+x}ccC]
+f]Y|AC
+o@@u?j'YOE4P|
+s 0vl5
+_[7	/f4
+o-+;b|
+6leb {
+:o`X)vC
+dOjuz2
+`/$ ^K
+@BJ}4C
+0rVB-=
+V|j	z	
+L	W[4x
+&n:vS|+
+X^'0Kj]
+F9wt&S
+X/	WjM
+<*t*<?
+zvh|}|o
+IWm_f9>
+t!Nc!F7
+7Du$8F8
+ccQNY+
+%XBOmt
+ptr=+tBj
+6g_4!]
+FNC+lh
+	An{!\
+.t}M*V
+s44~/z
+,U}Do 
+5 *u"Po
+A_Ru&au
+h-blsh3j
+,PS:a):
+`/z<,K3
+,dC*=n
+`2am"|I
+2 XX{cC#
+QPhDAa
+xtW[Cy
+eQ]t'l
+{t]	}tw
+g\/f%D
+I:zhh89
+R!qn7z
+`[j~|u
+d FTN9l
+~	Z|H	
+]j0j~5ft
+oS$g6dc
+m>0}Lu
+9"<B@II_
+$Ka+{V(6
+`"HwF~
+UD4$W,W
+S^vu1.
+JiTiT*P
+-l>)Y>*;
+A7E}kF/A
+wuiSQc
+I<sskmm
+wYRj(vC#6
+4/A25:K
+HPmc*9
+Jx'NNR
+k&+`W)d`
+2*9)s	
+^@S;zk
+-!|lv-iJiR
+}A1zdl
+[>iYqZ
+Uj$Rp<
+IDeNRE
+A"8$}W
+,"4F^x
+H"8FV,
+jZL8&M
+%.*s(%d)%S
+YNANRC
+ad allocation
+o3h;M\
+;+VEls
+{S	v0t]n
+.s_'s#z
+lQE[p	
+r7RYHKI
+?*<>|"
+messag
+K5%X'V
+Af'l-1Yo6
+X3Mc5s
+tcSmMN
+KQS- 3
+I_u_w_
+3etDllDir
+ectoryWk
+Z2fQ`SIy
+7WINRAR.SFX
+d:\Pr7
+s\Win/\\bu
+ild\PJ32\Rel
+.pdb{[
+))EE	F
+ (08@P`p
+33!D	03%D
+D)}D*{D-yD.
+wD1uD2sD5q{
+D6oD9mD:kD=i
+"8WwuE
+)S7'u+
+)S37%.-
+g2Q!PQA
+qF"Mr]
+O#o;lI
+"95m)y
+B"9;q!
+	i8KG.
+y+#}o	q
+il,&['F
+;G/mZF
+)dm1ew
+Yoc`!A
+u}tXB2:
+=:LhRo
+DDINGXX
+7*ndClose
+GwTickCount\
+WideCharToMultiByu"
+vVe>ionExF)lP
+}hNamo
+U_&Mod
+mpneStr[g
+eInfo^Se4t-bu
+f)3Sys'm5
+ViewOf
+o%GW'W
+%"zTyR
+Numb^N
+KeyQRokun
+Co:lsy
+/,Dlg%
+3chB01
+}LSIDFrom
+SP5Wr3
+old)&,
+tfATP.`
+ysyIBox
+afAXfS#
+ovg8.tY
+.CRT`'
+XPTPSW
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|L}~
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+<assemblyIdentity
+  version="1.0.0.0"
+  processorArchitecture="*"
+  name="WinRAR SFX"
+  type="win32"/>
+<description>WinRAR SFX module</description>
+<trustInfo xmlns="urn:schemas-microsoft-com:asm.v2">
+  <security>
+    <requestedPrivileges>
+      <requestedExecutionLevel level="asInvoker"            
+      uiAccess="false"/>
+    </requestedPrivileges>
+  </security>
+</trustInfo>
+<dependency>
+  <dependentAssembly>
+    <assemblyIdentity
+      type="win32"
+      name="Microsoft.Windows.Common-Controls"
+      version="6.0.0.0"
+      processorArchitecture="*"
+      publicKeyToken="6595b64144ccf1df"
+      language="*"/>
+  </dependentAssembly>
+</dependency>
+<compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+  <application>
+    <!--The ID below indicates application support for Windows Vista -->
+      <supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}"/>
+    <!--The ID below indicates application support for Windows 7 -->
+      <supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/>
+  </application>
+</compatibility>
+<asmv3:application xmlns:asmv3="urn:schemas-microsoft-com:asm.v3">
+  <asmv3:windowsSettings xmlns="http://schemas.microsoft.com/SMI/2005/WindowsSettings">
+    <dpiAware>true</dpiAware>
+  </asmv3:windowsSettings>
+</asmv3:application>
+</assembly>
+ADVAPI32.dll
+COMCTL32.dll
+COMDLG32.dll
+GDI32.dll
+KERNEL32.DLL
+ole32.dll
+OLEAUT32.dll
+SHELL32.dll
+SHLWAPI.dll
+USER32.dll
+RegCloseKey
+InitCommonControlsEx
+GetOpenFileNameW
+DeleteDC
+ExitProcess
+GetProcAddress
+LoadLibraryA
+VirtualProtect
+OleInitialize
+SHGetMalloc
+SHAutoComplete
+$IP1<PI
+M|vs3#pi
+&w_y8-
+\;]x1xB
+P2RR+Eb
+"g 73mS
+epyB4v
+O&0NK=o)H8
+Practical Malware Analysis Labs\BinaryCollection\Chapter_10L\Lab10-01.exe
+ BB80#x
+#pLcHg
+B6bsXG
+AsDwk.J
+HiAr4+
+F\;~By
+2]^43]
+0\,/T%
+k[aff'
+ZH0irI
+M'CmUe
+up	-!0
+Practical Malware Analysis Labs\BinaryCollection\Chapter_10L\Lab10-01.sys
+8P@4)x
+1#b9X;
+G:,q>x
+Practical Malware Analysis Labs\BinaryCollection\Chapter_10L\Lab10-02.exe
+ot/go'
+x,(6\d
+;Y?0Ca
+{``>DPs
+emU}_Gk
+#{;h>5G
+$39099
+Nch=}z
+KMd+f(
+vqVQvsK,
+L[G|q#
+!^|RoD*
+=YkuG.
+{pTs[#
+EOGcO_
+?%	}, 
+X;D%6(
+J:#8ohK
+=RuE@N
+!/sMXi
+PXQ"Sl2
+k4Zm#7
+gX6N=J
+JJh;}$
+)ilw]i
+Practical Malware Analysis Labs\BinaryCollection\Chapter_10L\Lab10-03.exe
+2XFT8kot
+\	UdV)^
+Ju<;o!
+s(KY0P
+AzB|=Vc
+nqI[7&3
+W_v	:B
++u/np(
+wxe>|Pc
+kaB	!u
+s~iWWc
+:xC1h:,`J
+Qkv]e9
+sZl/3T62
+ B*B74e
+#*Bjq?
+9z==@s
++)<Zm5N
+WQSYM;MVK
+T* $@o`@eI
+Practical Malware Analysis Labs\BinaryCollection\Chapter_10L\Lab10-03.sys
+[DA[KUg
+J,.-X.L
+,Cd:Xa
+Practical Malware Analysis Labs\BinaryCollection\Chapter_11L\Lab11-01.exe
+fs~	,B
+wWWWWWuwWWy
+6%?D\:
+GS/u4{
+Y7+k7z
+?`]X.^
+'vqj	>
+~C+s8O5
+Sk=>J<s~
+`F[\Tc
+m)]`9}
+M.6r|.
+75dgZ,
+M>'R%,
+Hx<r+>
+olicJyK
+v=&:g=-
+"YSh6v
+=}Oc79
+QAfh1w
+T8(too
+%y<B_p
+Qy\ >9S
+oz8ZU]
+`n`jpvskz
+4 kVo&
+Jk~xL'
+9LQ^1$	
+V45|A,
+ZYw@{<G~
+v!%=?K
+'(S W0N
+Practical Malware Analysis Labs\BinaryCollection\Chapter_11L\Lab11-02.dll
+'V=qb{
+&1gEc1
+C=HF/kq,
+ypX.NKH
+Practical Malware Analysis Labs\BinaryCollection\Chapter_11L\Lab11-02.iniCHMMXaL@MV@SD@O@MXRHRCNNJ
+Practical Malware Analysis Labs\BinaryCollection\Chapter_11L\Lab11-03.dll
+xPefU%
+\ 3=Co
+7ZD|n^
+)b(J|4
+|oX0Hb
+\YV7Xq|H
+/A~2J*1
+"q2ZX2
+mS;%QWL
+lzDr)j
+E_vw<&P
+anlp2_
+K~C>pn
+z\94\M)
+ek>t>*
+z?8v\U
+|;4<U`5
+8H{hsP
+:$|}3PrRf
+4d?q169},Qr
+-+EEPM
+%"E3U218<!R
+qwIv]~y
+~2=L~j>.?
+JO1'O'
+`~0`>b
+b.}5T\s?
+Practical Malware Analysis Labs\BinaryCollection\Chapter_11L\Lab11-03.exe
+Id=6R@
+8&_[3	
+33h0mI
+'0nkG{Eg`
+RGe_3E
+2;xuu_
+dX3M[VV
++AM*I>
+QCbYo[
+XAjkI?
+{%Xy>!
+s$:5r(/
+4aa^>e
+w_`lw_g
+L0(d]PI9
+aJDxXmX
+NX~q_Z
+&mp>>f
+O@5L]k
+/Jf&Zk#
+m!X}L/
+Practical Malware Analysis Labs\BinaryCollection\Chapter_12L\Lab12-01.dll
+]iBJ!=
+p2SdBl0
+?Z7tT.P
+h8`WpaX
+<yVFXq
+ENZ|(8P
+%O=64C
+KLCwnd4
+Z5Y']y
+pR"sIPr
+94WIlQ{h
+YzHq!z:
+~D	,K-
+~eZ_LU
+ICx%av
+c\,/] ',
++?Y;8N
+gU\W7	
+=Yi&PS
+-hr_dA
+ycx~Q?O
+lB]5:Y
+2_rJrKS%
+`lt4wY
+y#U#W#
+JfJ~KN
+Practical Malware Analysis Labs\BinaryCollection\Chapter_12L\Lab12-01.exe
+	ed_HOV
+;/V`boGc
+es'KQR9
+e:P@kv~)
+1U my9
+lwO")H
+5ftX;bb]
+4O$#^%
+3(>Gl;
+9'36ky_
+=gZhHU
+Ne.Vps0
+;s=8[L
+-{@I,\d
+F"5bG3
+%y[hho
+iU__]^
+ML-POl
+AS[ZLg
+Practical Malware Analysis Labs\BinaryCollection\Chapter_12L\Lab12-02.exe
+KK5YRL
+3fOW!v
++:T2?k
+S~|K:R?j
+<TIgrK9j1H
+&hb+fO#
+|a(K?<
+w0;nsi
+~04kd\
+'\b-AU~/fI)
+w`?]=F%U
+X	Q/I^=^
+&& z3kC
+NGfY:{
+./n1`m
+4OA@mQ
+WCVI'b
+tagN(>
+gE2*amE
+k)bij*5
+USkMKG
+{[LT5H
+get1}xW
+r<	lV_
+D&c'K6
+	cRYTK
+L4tLfW
+3^Wr/W
+C6a}wn
+M`{J*!O	8
+;@dl9o
+K6ndX`-
+NGfY;I
+&L[g*L
+Practical Malware Analysis Labs\BinaryCollection\Chapter_12L\Lab12-03.exe
+F't@L0Hd
+k<TB,zI
+FskhFc
+Q@*}=Ba
+'Q	&JQ
+eN{~`<
+iCAC*C2
+qxn4>%2U
+eC#k	vzp
+8QbZ#D
+o8iJP?
+DIW-]`
+iRC!#kv
+<xE;@7
+'YR)dH
+:L~o:L
+:FFwZFE
+OBijl@FuJAB
+:}X4]c
+UOs5+S
+Practical Malware Analysis Labs\BinaryCollection\Chapter_12L\Lab12-04.exe
+YUU*%\
+"eI;K5
+K<iiD^Q
+>x_L6R|2
+Practical Malware Analysis Labs\BinaryCollection\Chapter_13L\Lab13-01.exe
+zc#1CC
+!46,GM
+3%>&li
+HT0{6v
+qc8:+w
+^*~MqE
+T6O0FS
+@9%( us
+1wTd|x
+fjn	Ud
+sK.)kya
+xbT`\l
+iVTQewJ=k
+y\.-8Ak
+82F~M2u
+8oqW{i7
+%H^Q`j{
+Jk~5Bg
+BKmj$[ "
+Practical Malware Analysis Labs\BinaryCollection\Chapter_13L\Lab13-02.exe
+OYR>>"
+Er	a9"
+N-qu"q^K
+@SM)e`
+?-32~@*
+yJPeu\K.
+	Q`!BB
+X|8hWp
+NK*L'R
+Ahd)V, 
+_nuLC0
+Fk\*b^
+DGb*z3
+e_^RNY
+xG:N#M
+]8X?wM
+59\BGo
+]>UQ	dr*
+j6Tu5;Z
+&'?GST
+Practical Malware Analysis Labs\BinaryCollection\Chapter_13L\Lab13-03.exe
+ 	0g0EnH
+o:$\B3
+tz5OIx+
+wDwN={
+U%'o!)
+}tAHV9uk
+5<+;m	
+c]TAjB
+	C-c/5
+JH$p(2
+5k6i:=3
+W`!J?J
+E7=*$\
+~uDP(&
+gE_[W-q
+0-X[4.
+2bH~%S^
+lC /bC
+yd6gv$m
++)0^/#
+;;^Ex e|
+jf&f/%
+X$5gm0!
+o,Ioh]
+	;nAnL
+6\R}Bx
+a[X&sP
+oI8v[	W
+ii-bf@
+mn-Vbth"
+/yzm ?
+5;4O`~
+JCz[Ik
+b=;'fjPw
+02hx&_
+v<mL++
+F{Oy>wuO
+Ul0Ec&
+NR!'SKI
+*zQ17x-
+X7ZWX6L
+Csa23j
+-mzg^o7q 
+|~13/?
+77o4Y|
+]b`]]_
+s.zGUMQM
+Fq/V)}
+|4\leY{
+w[%Sl_
+Ay7f c:
+/"Fb~/
+Jyo-EL
+01c)w;
+Yp#	y3(
+6'd}9E\
+ Y"JYU
+BD IB5
+DD!T#*
+B	BUBR
+( dB1@
+l.C!e(e(
+**-c1g
+2(dYeQ
+"}mWN"\
+,s	I/|
+Xt%[CW
+U)/\QmkekMK
+Z~9ueR
+=<"#J| 
+Practical Malware Analysis Labs\BinaryCollection\Chapter_14L\Lab14-01.exe
+Y-]fk5)
+4([kxj-
+qDXosA(+:
+?DA.`3F
++/(l%3Z\
+[)$p-'E
+d@D.c{ppx4
+]kf#U#
+L[7P{v
+WV6Xl=
+m`t]y 
+'lY5fC
+C*8zU}
+BX>7zQx
+LzRIa~
+%MM=HAu
+s7GMLWY
+*\1$m ]^
+]:*a=8=
+;\#7QSD
+Pg11Y>
+Practical Malware Analysis Labs\BinaryCollection\Chapter_14L\Lab14-02.exe
+.`d&Yd
+)	i(B;d
+UlNy~+&
+w3Ze[`
+yYm:(L!
+x|r<7S
+Y98(g|
+T(/!%q
+Practical Malware Analysis Labs\BinaryCollection\Chapter_14L\Lab14-03.exe
+eN1T?0
+uP_{V7
+0#\Y:	
+x4$lCz
+$y-m`]
+&8Hs#B
+\|#qd;
+*C:LSJ
+EGH<e$v
+-+`J*g6
+[|K-5Z;
+9V<s(S
+,NO=g3`
+oekLle#
+cLdmP;}
+ABwNdw>
+7H~~\ 
+XQ(/X+Ax9r
+6DIxvgD
+\)p8.C
+.H[\OEGp
+	KP,?[
+W_kX3\j
+[_9-,>
+qdo^A<
+z&efvL
+%<XSAl[
+=ZB[-3
+HdsW_8
+j_chV7
+HrJA&Yqh
+FQta-H
+Y*wYA7
+CA$ jj
+Y+7[}66
+N},*j 
+Practical Malware Analysis Labs\BinaryCollection\Chapter_15L\Lab15-01.exe
+Practical Malware Analysis Labs\BinaryCollection\Chapter_15L\Lab15-02.exe
+#F)fDj
+madA)w)y
+3Jh$s0l
+Practical Malware Analysis Labs\BinaryCollection\Chapter_15L\Lab15-03.exe
+"]9*"p
+eczl:i
+=DU`"w
+M?0dXo
+&D-?LD
+P<T8ay
+Practical Malware Analysis Labs\BinaryCollection\Chapter_16L\Lab16-01.exe
+?L"#~H
+_s b7x&
+J~Ih`4
+=i#9#rT>
+Cbo`EP7
+mVt]:Ra
+}J2~xx
+_W.6RT
+:I?;/f
+YHAjBA
+%IM']w
+ppnDnX
+^8{:xb
+%T bZCs
+EbR5o@
+c<	Dr6T
+*9,4_*
+Pc^1O|
+eT~O'5g
+r0j.H!
+u/cbQOQ
+b:PX3w
+T8]S,c]Nq
+@uU]7G
+D-JrBAR
+B	Xkqt
+!!]X|Ce#
+A9<pR0v
+"L~k(/
+O3s<2C
+wG>(ymL
+g\wZ 4
+okiY!;9
+b{FU`:
+m>b,Z~
+4e/Tre/3
+-	!F?!
+D/XZ~ 
+PS{:{!
+""w0&H
+	A@7	9
+	 ^@4)
+GJnLVB:
+U)icoz
+]038e{
+oDC5Q5o{ae
+C2$48-(
+7	1p,I
+Practical Malware Analysis Labs\BinaryCollection\Chapter_16L\Lab16-02.exe
+]]]]]U
+)ke$^Mz@%c
+k, yy 
+Q@uV]<
+b_IKm	
+\\%(qe
+}3[&|{
+$d4bd[E
+lKoZVI
+4NW!9O
+39(uHB
+YVa[9/
+7ETf6BN
+k VM\A
+/WT4VY
+FOLqJR
+F-YFn"1_Td>hNKXk*
+4]2"WFUO
+%mJ^e]At
+MAC<3]%2
+%p=H%;}
+~#TeS-C
+R<>z8xF
+/j.`Q.
+@kz -k
+oMK?;6
+V`|Cpo
+f!YOW/
+5a}f4K
+Practical Malware Analysis Labs\BinaryCollection\Chapter_16L\Lab16-03.exe
+UHPOd9
+l./?x3S
+"-CQ d+/F
+"bC<E:
+Z~ZI)J
+@FGe`d
+ey2z&\!
+ii_L*T
+c^IYxxc
+y.H F>7
+U8Mk*G
+h,t	'C
+-ynW6F
+|	q9d}
+G}Cizb2
+ls5v25
+dKRv#d
+r~}[%NR 
+byFimo@
+\qrEt.p
+>326dZ
+UU1P_qs
+Practical Malware Analysis Labs\BinaryCollection\Chapter_17L\findAntiVM.py
+Practical Malware Analysis Labs\BinaryCollection\Chapter_17L\Lab17-01.exe
+M5>v..*B
+\DSftx
+%EIR7P
+*W-:F#
+#ntSiE{
+"my0zF
+E8~?1f
+mG'g	6~(G
+`-"SWt!
+P,xD+z
+t/%9'w
+e.`Cc.
+dm5$k,\
+RGHk]#
+,hr,/u
+*]*^&M
+#BM/YW}
+Lg0~.;
+^wY95.
+jvjcO53
+v}[?x>
+\?oZ#Z
+Practical Malware Analysis Labs\BinaryCollection\Chapter_17L\Lab17-02.dll
+F,#HB,
+3P|ZPU5
+D=.8k1
+M>P1D[y
+Wx?>;~
+PD!isCR+
++h&l}K
+nr^K"i
+UQs#*p
+'81 *)b
+bFu9Q3"
+\bze2rc
+*yW'.E
+rZu(sd
+r]TB `8
+/4fuiN3h
+7l=&q4
+L&Z~[F
+"Jd]XD
+sgmc9QwY
+C7Z<["V
+y5?N3Z8
+c>4>8	
+ismIc{
+[s:'n\:
+Q12(J6
+5j\8*G
+hGH>Pl
+4,@;cD`
+Radyc+
+h#DPa'
+~0=i=t
+nKb~\2r15]X
+rB9!nPG(
+n1,)E\CDp:
+sb<I}c
+_1>W)\
+5!<\HF
+I*<cbK
+AC1vI;
+y7R.Q;p
+kFA'X	+
+[MM4Ki
+2PTdyvwh*
+<HPh<xJ
+7"z4#t
+4Afo6$M
+v]c3^Z
+6%LW'nx
+h?H+6a
+Lhw!?L
+r'61P6
+ml3{w`
+]B~)I`
+WfYWFT
+S3&{fi
+H#1&dL
+&"`$`b
+JqGn!i`_
+!!$y&i
+7uSj9~
+=1=dItj	
+1o=upsD#
+yYL]t1+6
+0"s+Wh
+[)a#vm
+Vy,\e6
+7GspE#>
+mg0^OS
+;578zvx
+C5=EM(V
+,uAKrJ_
+6h qBS
+i7N[;M
+c9;n6 
+D(?eUFv}	
+`'C;B*
+Rhzy-s
+$qIg?d
+bYd_1^?
+Ff`xRO
+<\#?BV
+I~$m><
+^=Fz"z
+$NHw6-
+Z	Eg%Mi
+cXYFwA
+,,9mu3
+r$uDK<
+}{8Q_X
+g`rr4*=r
+%AQSj[
+G_kim,`
+11vits
+#4&WNmT
+N>J|U{
+pCjl5#ND{
+'kQvk'
+LnjokL
+#,,e)X
+J]H?ja
+W*^.E5
+dZ-Dlo
+PKR+HV
+*zU9%9
+EUF%N:
+$3YI;l
+&`;Q.'
+&$d?XdS
+fNrvvl
+A11'%+
+AQ%'C!00s
+ A?	?2
+e8[mVyd
+Practical Malware Analysis Labs\BinaryCollection\Chapter_17L\Lab17-03.exe
+/ll5.5
+j_`>Ln/
+;O0m|<@P
+VMsvF)Z
+!M:)v!
+}qi4#)
+^H0FZR|
+:p3-e:P
+7|_a&9)
+7zuk5g
+	ri.Bx00H
+t `n Z
+K)\;^8
+C.86MU
+eB:!g2
+Rq|VAH7m
+Lu}#Dp\
+"m@?Ptqp59
+0;cFY<
+_!++'*
+%O^c#*
+HO2Gs|
+>QJ@p,
+%$%i)h
+^<4he/|
+%}hK0+
+Practical Malware Analysis Labs\BinaryCollection\Chapter_18L\Lab18-01.exe
+6HooK{
+rSVA.k
+v[u7#;
+a0:FBsK
+h J?TMm
+Uz3jG*
+BL	#:*e
+.bCy!^
+rMGsJ5
+m&q}.H
+A[>(?e
+.4$W^=;U
+G0-~YI
+>?:; >-
+ls\sy)
+?jTP)n
+ko1^.4
+QvN_dJ
+r5A8{4
+.bVZ_o
+^_`abcdeY]
+abRW'n"
+We$JMjP
+CQnt)<
+NN./00
+jq0z/o
+Practical Malware Analysis Labs\BinaryCollection\Chapter_18L\Lab18-02.exe
+fc\3e3
+WBMYlM#
+h4Mo|SAy1U
+`k!-g]
+,M23U	N
+Practical Malware Analysis Labs\BinaryCollection\Chapter_18L\Lab18-03.exe
+d	!G*JO
+*v>&m`
+b~+l w
+FPNA3i
+H"I`i !
+OMq~e!S{
+{Wck\u
+;Xovzl
+%4/qqDE
+apOexe)
+w`CPZ7
+I!A{Pf;H
+V &.C$
+I]twU(
+PR^Nx`
+Xcc}b^g
+0d=8C"
+yM-K$B
+h6|zUH
+Practical Malware Analysis Labs\BinaryCollection\Chapter_18L\Lab18-04.exe
+EL2j8b~
+?{>Wco
+z~zYgX
+F[ym}B
+!\~0ox
+<xN[j-a
+*!"PBS
+;A\TZVfd
+[/"8|72
+`i3$yG8
+]L[-7B
+T(A+56
+:Yz	p&
+970Wue==OPQ
+Oto-bA"
+@,_mrKW%!
+AU>t6s
+	t~GN5
+f[z|~oj
+l#2e=CZuEH
+*'3mA[_
+uNkPm$-7
+H[\v5G
+Pzsw89
+Y-j,,+b
+WxKcNR
+rJ,::B
+rb.wskdg
+n'4'Yv
+l)`o07
+;eV]&jEJ
+v-iQYT
+939hfo
+X#zZf*
+hp$}`|B
+1a$C<	4]
+}BkS<Z
+6Ko@b;>
+W*|F$F!
+h4.wq!
+t]%]tW
+\{/C$^
+V3O	W2O\^
+uvenHnnqf
+!`ar@\
+QTHKLW0
+qs%UnPY
+!%(,05:AGUdr
+@M-V;+\
+N`P1	f
+H28>XK6
+*>I*k9I*
+MTrhpXJR
+Practical Malware Analysis Labs\BinaryCollection\Chapter_18L\Lab18_05.exe
+I:6%#dtlB65
+,nLNO(
+;,*DFm
+*H8H>u
+J6b"i>E/L
+'M@HJJ*
+<OkZmE
+f,a-=[hw+
+B)[j%#ms
+$f ru7
+!k28,L
+$W{28\
+JJaaoS
+h_%hf6`|
+Practical Malware Analysis Labs\BinaryCollection\Chapter_19L\Lab19-01.bin
+Practical Malware Analysis Labs\BinaryCollection\Chapter_19L\Lab19-02.exe
+]Le,uC[
+oAKT4^	(
+\g@|U"3
+>excB~6
+^&+hmm
+M~5TN79
+_k |eV
+>@c'9A
+/3$qcl1
+KD#@{wT|l
+el}Xrb
+&.]VzH
+(!o=mH
+t'bVblo9a[
+af w%/
+{"[2@-
+v@#sh\
+1qS^>g
+%@g8horX
+jfabj+x
+i4]2!WFU.
+%46EFM
+6I2B$!
+ZcY^gR3_
+#:Xn1U\
+K+!ZM]
+mwXbrW
+D^9p~7vq
+^9u;U$
+MSKGOO
+Practical Malware Analysis Labs\BinaryCollection\Chapter_19L\Lab19-03.pdf
+1Q=_]n"b
+`fbj& Q
+:Ka`e]Ckt
+wxyz{|}~
+MPqY]+
+X`hwL<@DHLPW
+70RrVX[
+<Pw^8T
+cR{_|D
+.M<jkY=
+YA61K6>
+fd^]%'
+~f^ef	
+bWYz@;}
+3gyP7(
+PsMF}Ri
+b9L3ZF
+WW[\\P
+&qTJJhwt'8
+<\FO?0O
+>*&%#Y
+qw_<.>:4!,P
+Jb1ZE%=
+yZZ7iQH
+{<7K[%
+k~}H+g
+*LjAR@Z@b(w
+R["ssi/
+/TV`=hc
+e;	]eS.
+Iv=d[O
+f`/el}
+ |O;37:t
+)/"'IL
+Yv'5?&!<P
+:N62V`
+;GnEdS
+IhRPRT
+qPTmApmd
+l`-G 4
+LVFFVn
+	zHIH?>
+BFFnJXrlL`<rnn
+;2(!/4 09s5,.'5)
+,)8#6!)
+=/-OQK
+.oR=rUOJQZwQNWk
+/+e''^
+LTUdk3{
+NVJ*RTLbVp
+c2W';W2
+Y a0q@
+ggiikkmmooqq
+!#M,9o
+I]QVF5
+M9W+Wg
+	>-NM^m
+?_SCAN
+5sO0ap
+?+aac!e
+idkhb[iG
+W/5a5Y
+9c[QaW
+Practical Malware Analysis Labs\BinaryCollection\Chapter_19L\Lab19-03_sc.bin
+&Ck`>D
+Practical Malware Analysis Labs\BinaryCollection\Chapter_19L\shellcode_launcher.exe
+:^0`ZD
+# |ruO#M
+663JK5e
+ky+<vS
+-,$/d~s
+Lulz~L
+E.ALy=
+_QPuO^
+ro%u>8Y
+3- qi1
+]5,(w,5
+I$5>A3
+/e>[#K
+-YZffZ
+4?l5n>e
+$G*\qe
+R:{>zR4
+5t[C2+
+[OBXg3
+9:-Mf|]L5I
+XycXcYi`0
+.55W%v
+NIFY[X
+.JK>=t?+
+trpy|O K4m
+&Mg\1x
+QLSyrd
+zN>Sk4w
+0Lq_n=
+u!F`-Yp~s
+=b0L8 
+UUhrd<\
+"ymACK
+z]%-UPn<
+S&`YM1
+.{m6r*
+Practical Malware Analysis Labs\BinaryCollection\Chapter_1L\Lab01-01.dll
+Practical Malware Analysis Labs\BinaryCollection\Chapter_1L\Lab01-01.exe
+=IHc-DJe*QD
+&7ez'L
+FaRo%]9@ZP
+<WTY3>
+Practical Malware Analysis Labs\BinaryCollection\Chapter_1L\Lab01-02.exe
+^m&y|3
+Practical Malware Analysis Labs\BinaryCollection\Chapter_1L\Lab01-03.exe
+fc\3e3
+WBMYlM#
+h4Mo|SAy1U
+`k!-g]
+,M23U	N
+Practical Malware Analysis Labs\BinaryCollection\Chapter_1L\Lab01-04.exe
+YUU*%\
+"eI;k5
+.@*vadm
+w"2i<Ly
+sS~$Z=a@
+O7 jT_
+Practical Malware Analysis Labs\BinaryCollection\Chapter_20L\config.dat
+-;62<'2e
+Practical Malware Analysis Labs\BinaryCollection\Chapter_20L\Lab20-01.exe
+{Yr_9U
+LPwf/Y
+7YMJ}(
+,zHA}e"7+
+:R\Zth
+Fw co<rS
+m(( ?<F
+Bnb53p1
+pd~7WI
+t]cyv`
+|!?o5>
+BX8]_i
+} "fh]
+pABrjPr-
+qgBlHsBC	
+O=WT B
+cedRWn
+:Z'`b]
+I{_afgZ
+<uhy7C
+h3*q=Q
+Practical Malware Analysis Labs\BinaryCollection\Chapter_20L\Lab20-02.exe
+wWWWWWWWUW
+/WKH} 
+zE.yQJ
+a"_W?G
+.FWJ<cGJ
+fCX!.mz
+d&$tN"o
+d>x5C`
+4,"s!JISXV
+b](F '
+Vr;1-gJ
+D{p*@c*F
+I[o	cPkT
+_a`uFI?3
+41r.y"~
+=PTk(`
+CJ9k5Sg
+n?vKRt 
+oMITAU
+Practical Malware Analysis Labs\BinaryCollection\Chapter_20L\Lab20-03.exe
+zwgg87?`C
+#v}	Eb'r
+ZnT5{Q
+e{j>R707
+3Eg(os
+6:(P%ng
+rN3:r2
+c^1d|uZ
+rP1_HG
+*[ZC$H
+N}qzoS
+KCGe4p
+5dj]}K\
+?d*Uyq
+/IjKR5#R1#:\
+zLt9RI(d
+Cze\S\X
+x.F8Fs
+.RX	r\
+B\::0_
+Vt`dWl
+tw7jI-F
+ZnkPgAhM|V
+NM|X}*
+3e[a7a~
+I?XkMdE
+_[Q2	H
+>XhJX`
+dAa*&y
+Rt4;o_@
+{u;qD.|
+qB7[/my
+K~W_%E
+FlP~iU
+7@BaN5
+''- SB
+.4;o1|
+!^@;Bu<
+$A>Y0_
+<2}g~|6
+7AoL*$
+ZK"G4|Q
+Z/(=[Z
+O"pTxZ
+XnWM1h
+SAvfBO
++3Hx\/
+Practical Malware Analysis Labs\BinaryCollection\Chapter_21L\Lab21-01.exe
+Ky~<]a
+>$ra!obH
+k>t Pq
+:k|a[Z
+4^@z|E
+?sg" nt
+/a-S'b
+`q	QH6
+.Lho;C
+wXhtdR
+;AtR:>
+fm@~3t
+1QC^B8
+'z] T	H.
+6?j	t,
+'9r3m'm
+5g;7mYG
+oI9;=?
+~NNRW)
+Ib,.l/
+^,pQj_
+kE8"YW
+31CC'p
+p :L>T
+J%e"Q9
+h_m*S9l
+Practical Malware Analysis Labs\BinaryCollection\Chapter_21L\Lab21-02.exe
+Urz%hT1
+1xW`m#.
+E%a&[xx'#
+1>>e@jU
+"~N)=+
+ VBKX5xw
+){tk`KH
+>zu{6!%
+r	lKbr
+Zk-z'}
+*B^)@;
+6[81+7
+t94d}E
+7`!/o7!x
+MPrW5i
+(Lr3#J
+|srY,J
+)V^#J6/}VFC%
+Id9iaq
+ICx[W>
+tN	-	pE@
+T	Zq!f
+@"|yhR]
+ Mxofdz*
+11DXLY*
+PlH_GI
+^_S=?/
+]&RG]}
+bW#<wR
+1+1u0 
+IO^I2L
+Hr*H}C
+&EI1pe
+	U<eu<Skm
+i{iP~2
+h{Fe f
+yhwcpz
+3d,ieCF\
+sX<~lV*
+=-ItY2
+7pe~sAx
+8O{.^l
+c>hTpO
+pY.+6jQ
+.6^=8J
+Xw83-1jzSE
+V<;Uq)'7
+`!Z~}q
+Cm[TES
+obV*:6
+_)ZxOH
+c:T"h$
+qC9p8a
+;1#j.6$J
+no*.jze
+6 s+Gw
+J~g=|$
+]RUPj3O
+;r}#M"
+SEAEIEQEUD
+0t+haha
+i(ihj(jhj
+8p|=X'
+n~xrMt
+1Y"mK[
+v'9U\e1
+NjX,?D3
+8IJc")p
+?:btwy
+R}%AP+
+>e>.s&9(
+=#CCCCCCB
+^\M|^[h
+J-N[e~
+PE8x2[
+]V%qii
+<8e6Vo
+/*<]gb
+<q|Unk
+W11B	J
+3<,fhX
+c<ODde
+3.,fTX
+{);fj0<!
+OB{{JYs
+o/J/>=
+LN$xF94>
+Tzj->E
+lv~cc[
+`OM"' 
+sWb@eJ
+$%	E^d
+U4UTUtM(
+FjU>Z@G
+z%}@r8
+@,'^	9H
+*c"ugQsum
+ 2unSG
+&KK-Q 
+?@!E0xd
+#W=2,T
+|bRZs,
+\m}cAU9$R
+.*(%E$9
+$qK9C(c6
+r>86tQ#
+.@8+PB
+?axo8:)
+wG+9;Py
+-Pi~i'j2)
+GMwbMz
+<47H_!
+EKQKj%
+Rg93O3
+s+v\F\
+4k5+*Vk
+5viv}v
+Practical Malware Analysis Labs\BinaryCollection\Chapter_3L\Lab03-01.exe
+'-xB]Y
+0U+At[|#
+L/A/]&5I
+/BFE.2'
+VCJy@YY
+!gbV_l?
+Rwx_!?
+nS \w *
+S77'=>
+vNZzrqD
+Practical Malware Analysis Labs\BinaryCollection\Chapter_3L\Lab03-02.dll
+I/BZ5R
+p-oc/u<U/
+7pa0h/
+G@~*U{
+Wt;CJo
+f\)Tp2
+kbL*1_
+ijA[Q?X
+TPGkj(
+_M~]'{
+oXb9,~
+bwq"(-
+?TK~`D
+_@;:ZD
+U>*vs4
+C5YGKR
+33HkOSUEF
+=EN|3(
+y!#!3 
+fdhdjdt2:y
+6NBO''
+x$6RW++
+Practical Malware Analysis Labs\BinaryCollection\Chapter_3L\Lab03-03.exe
+KK5YRL
+3fOW!v
++:T2?k
+S~|K:R?j
+<TIgrK9j1H
+&hb+fO#
+|a(K?<
+w0;nsi
+~04kd\
+'\b-AU~/fI)
+w`?]=F%U
+X	Q/I^=^
+&& z3kC
+NGfY:{
+./n1`m
+4OA@mQ
+WCVI'b
+tagN(>
+gE2*amE
+k)bij*5
+USkMKG
+{[LT5H
+get1}xW
+r<	lV_
+D&c'K6
+	cRYTK
+L4tLfW
+3^Wr/W
+C6a}wn
+M`{J*!O	8
+;@dl9o
+K6ndX`-
+NGfY;I
+&L[g*L
+Practical Malware Analysis Labs\BinaryCollection\Chapter_3L\Lab03-04.exe
+o9+_9[ke
+(y(XrV
+%h?V?U
+"Qj4lQ
+xl-`Jp
+c'cx>}p
+.(oSb>
+}aMWSQL
+A\i1N5k-
+kRUQM'c{
+b{'>0{9vb
+f?`eX2^
+(=XS%B
+q%Yn-J
+t}xe@u
+,2.K	t
+;)L~AY
+1oFV"m
+o`)KW7
+(UsOmc4
+85| +_
+Nc+/|$U
+H?qc~\0{J
+>CJp 4
+.N<^o4
+t}N"ijW
+'_Wj(h
+bl~xpZ1
+PwG\cMq
+o=F;g@
+bb$}dvf
+A	Q`Z>
+./3kbi
+!7hJee
+ '?l-s
+U}jbqp
+Qajjw)R_
+/#\.N0
+Cb0_N)E8
+X)Dj77
+X[`&":
+_}>3^W
+eifk/~
+t4Tx#>
+\OXX?d
+GF]qR|^^
+:RaplQ
+|Lkb@\
+>,^m,:
+t!_=&t
+j];oQWT
+~C.%d^
+D=%8qv
+Practical Malware Analysis Labs\BinaryCollection\Chapter_5L\Lab05-01.dll
+F,#HB,
+3P|ZPU5
+D=.8k1
+M>P1D[y
+Wx?>;~
+PD!isCR+
++h&l}K
+nr^K"i
+UQs#*p
+'81 *)b
+bFu9Q3"
+W$"]":!
+^Cv%>WJ
+m#rAiR
+W2!	M 
+XDy"a]
+a	k6#<
+yzEGoNK
+#Wb2xDn
+?R]\DZ
++wyd,j-7
+p6Riu*
+y6&HQqd
+r>_I*vL
+NdR.cX
+Ehd7J.N
+:]ssZ$
+`3Jc8"
+$9G$oVY4p
+gAh?5z/b
+{Xh01mA.
+6%$0"1
+._ju-]
+Ps0Ro|B
+zm2u\T
+yLd(?)
+{{6$A|
+Fua4OM
+g{9eui
+=T;4p:
+bsS(pcW
+7/)^8"Gdv
++'j=.vL
+	zTERI
+Nh#q2E
+xv@EUXZ
+%?iF[%6
+C9qy,@
+co*8']x
+m6E9_QM
+Z)i80Af
+;r	+WRj
+ns2n.OB
+~4c]zv(
+-Fv%pd
+O-J%)P
+&{6_iK
+pRvPvc6
+!U,g_${
+2CFz_C[
+}cd;Jn
+?	-^J%
+A|6	1?
+8Nvw=K
+UECjsW
+n=x[ON
+Z*4kyN
+4p0Ppp
+tq8NN3
+`ulR;l
+V/g>S5
+Rhzy-s
+$qIg?d
+462c+4<
+bYd_1^?
+Ff`xRO
+<\#?BV
+I~$m><
+^=Fz"z
+^csM}^k3
+bGzbr}
+rHKLwi
+.0lm&L
+`3cs{]`&
+t:R[4Ub
+UWNSSX-z
+"iEEE!o
+cXYFwA
+,,9mu3
+Bb=aog
+p}?P<e
+M87a:;9	
+ 0;$}0=7f(
+#6kF8[
+qurisn
+2RoZr\
+sM]bZ4C
+#,,e)X
+J]H?ja
+Y*^.E5
+"C=';=
+kMKLKlkz
+r!rMq=v
+ A?	?2
+6%4Mg$
+oTW6J4
+v26Bbw
+$gBBHkKa
+n?BG:bs
+_YgYjYrY
+GGGGGGGGGGGGI
+Practical Malware Analysis Labs\BinaryCollection\Chapter_5L\Lab05-01.py
+Practical Malware Analysis Labs\BinaryCollection\Chapter_6L\Lab06-01.exe
+S].%_M
+C=k`LsZ#
+U(Pt*]
+v2)~@+J
+?S"G%i7
+{Z$<Y6
+-S15$q
+f$U)`N
+d@l;u/
+&f0intp
+CF_O4!3u
+j9e.9Mn^%
+:~*hN}^{
+7,->6({[
+o)lz2*
+-kbWd3
++tjo'9
+:}waqP
+a:!S'o
+=|L#K\
+3-g)pk-1
+voU;8!
+;j@kOq
+M5>wY`
+Practical Malware Analysis Labs\BinaryCollection\Chapter_6L\Lab06-02.exe
+~K~_[=l
+jUt%RRZU
+@:.tKpDsAZ
+6|mC]p
+zM\hGF
+n	,5&?
+Cr:)sViZ
+0'r]PP3
+_24H3)
+C9K*/V
+*>8{Ts
+h35[h7
+z~b~R~:u
+a'dINX
+&A7i,u
+iO(K+cvG
+HR8A;t
+=l<#K\
+U_\mWC
+uX08Be*l
+LN5>|Z
+Practical Malware Analysis Labs\BinaryCollection\Chapter_6L\Lab06-03.exe
+#dVK<l]ZI_%
+-6rBB>V!
+@0$\J4
+hf9SY{
+_H2:D4l
+U=rW_ )
+ xVIJ&
+!J@N$M
+l-|!GF
+T6)TtSX
+]\1/^8#:|
+%BgJhorX
+O6QF]\f
+&A^`W73
+amYol5]c
+-kcWd3j
+N, i/)
+jt Qupx
+po*T'w
+<uwHV/y
+|dS#gp
+%lv:M?}
+bf$+UoG@
+Practical Malware Analysis Labs\BinaryCollection\Chapter_6L\Lab06-04.exe
+^ Jn-KP
+EbRzv<7#oo
+XlGSm>#1
+a9Ge}yk
+I{`/Lh
+i@0$\J4
+t%Qah-
+_Ck{3&D
+UjVhR%l
+mM[D&v
+uE\42pC
+vd$,SA@^
+f.]\zH
+|06vF7
+m5imUwe1
+{"[2@-
+@GN5>>>
+X>zjz*z
+R1FJ2Q
+>q`H|y
+y`b$ZvO
+[cvVdl
+#IyH(+
+2{jo5`
+S4L`KB
+.QJp(UX
+~HsIg[%
+A`y+`9
+{_C=F	5
+OMOmNz
+](`^y+
+!O%O)O
+s"V_fp
+Practical Malware Analysis Labs\BinaryCollection\Chapter_7L\Lab07-02.exe
+uUk)8^4+-
+0P)!`0o
+DDDDDI
+9disoY_
+Practical Malware Analysis Labs\BinaryCollection\Chapter_7L\Lab07-03.dll
+Practical Malware Analysis Labs\BinaryCollection\Chapter_7L\Lab07-03.exe
+6SiTRe
+y}1v$b
+Np\IHB
+BkqjjyJ
+!Z[>h^
+Practical Malware Analysis Labs\BinaryCollection\Chapter_7L\Lab07_01.exe
+mENvBB:R!
+BN7Xgf
+6FfT#{
+~KI3pO
+>-/b8+
+#v$!&.
+K\]QKr&2
+FKq&)$
+LJhD5Z
+vh4_^{d
+8&d#:u6
+gv\fs>y 
+Ju GLxG
+EzD2Q2k
+1S5G#;(^
+w^F5%_0
+Practical Malware Analysis Labs\BinaryCollection\Chapter_9L\DLL1.dll
+pc&+:V.
+W+$tM^
+)Uw@k#
+pa<g[|dx
+V:m!Xt
+l:"dfE
+HmV! '
+|n;54Z
+2<d,"x
+nC@LNE
+x1!	h)
+M2`f'S
+	yQ9!\@
+CbVez%
+M,b\7I
+\I0\L)
+xw7@{1
+4yVo`v!;
+GJU[`V
+Kj]ujHa!dC
+>n,	0{
+~3Xa~m
+N)dOMy
+Gd@&0Bs
+)+Zx$q
+f]s-.(
+|lv;Gi`"S
+1{dE6'S
+R%*Tc#W
+*s\uE(
+k1k#V}
+vVzWI+Q+
+ZZVZj[_,l
+JXJn%<
+yl~V=&%
+>W7+--
+Ke%W%`"K
+,VrV}a
+3>c#4fiL
+Practical Malware Analysis Labs\BinaryCollection\Chapter_9L\DLL2.dll
+|e3~N&|
+~	Ej];
+x~Dt-Tc
+{Q6an2}b
+LKq\\4
+SN9Mfm
+9CJNiC
+aKxBL)
+#Nm:b6
+hn%w~HI>J
+U)G}P7
++<#|.:h^
+EDB#\@]Xp
+A}CD8:b
+  G1rs
+-xI>8|?
+|\92\L
+PS:[F-
+\meonB
+a5/am}e[b
+^(m0Yd
+xx7>{1
+C.,R+:
+lHA!tC-N??T3
+E]tw<$P
+~Dscb 
+,V\~1_
+A-9E73,
+zfrf_M309
+Z'T=Ka
+}~~W?5
+2r2sRs
+wayi#,c-c
+~~>B?e
+F\F]Fj
+9\tDtLtTvq
+Practical Malware Analysis Labs\BinaryCollection\Chapter_9L\DLL3.dll
+OPi&2K
+9CJ>qC
+T*8V]J
+ym:NM_^
+%C>Ld5
+rimdZZ(j
+Z>@vaw1
+%7yH'aV
+2=d,"x
+.rD>]u@
+z.e"qr
+%&MVks
+,=-h8c`s~
+18	z}XO
+YoFocc
+(eeI,<-uN 
+b8)Sp#
+	,zJ4-:K*a
+K^4%i,
+Nl*BA;
+h4G}iZ
+eiu[tnM
+rM5i`	
+>f$	P;
+	E(9?;8QG
+F'PD'!Ue
+VZH?R7
+#LrQgv
+ZRFRNSG)
+TJne<IO
+iKYOvR
+FR"R*S9(
+RJS=)7)
+3fgLZdq
+Practical Malware Analysis Labs\BinaryCollection\Chapter_9L\Lab09-01.exe
+o9+_9[ke
+(y(XrV
+%h?V?U
+"Qj4lQ
+xl-`Jp
+c'cx>}p
+.(oSb>
+}aMWSQL
+A\i1N5k-
+kRUQM'c{
+b{'>0{9vb
+f?`eX2^
+(=XS%B
+q%Yn-J
+t}xe@u
+,2.K	t
+;)L~AY
+1oFV"m
+o`)KW7
+(UsOmc4
+85| +_
+Nc+/|$U
+H?qc~\0{J
+>CJp 4
+.N<^o4
+t}N"ijW
+'_Wj(h
+bl~xpZ1
+PwG\cMq
+o=F;g@
+bb$}dvf
+A	Q`Z>
+./3kbi
+!7hJee
+ '?l-s
+U}jbqp
+Qajjw)R_
+/#\.N0
+Cb0_N)E8
+X)Dj77
+X[`&":
+_}>3^W
+eifk/~
+t4Tx#>
+\OXX?d
+GF]qR|^^
+:RaplQ
+|Lkb@\
+>,^m,:
+t!_=&t
+j];oQWT
+~C.%d^
+D=%8qv
+Practical Malware Analysis Labs\BinaryCollection\Chapter_9L\Lab09-02.exe
+Vksc}~H
+92=uG=v
+dF,Ax 
+5o)kRd
+`^Ztc	Oq
+P?LEn9
+.HhY;H
+:`y%"0
+b0edk8
+%#(tzM
+jg![]}=D
+\m0Vt$+
+Practical Malware Analysis Labs\BinaryCollection\Chapter_9L\Lab09-03.exe
+4jTnu/L
+eGV\}Z
+nV&@s~F&
+B.{UmV\
+u8_LU%SEHM
+S?g'v7.
+>zBv<+>
+/-zY.}
+cgfRN]
+@8Pvxi
+H8VrY{
+X~`L(D(d
+cU[[YZ
+2gcY]U;Q
+Practical Malware Analysis Labs\EULA.txt
+WRxKKL
+Practical Malware Analysis Labs\Hashes.csv
+}9}X<w
+kn19b*
+7l;;C49
+Practical Malware Analysis Labs\BinaryCollection\Chapter_10L
+Practical Malware Analysis Labs\BinaryCollection\Chapter_11L
+Practical Malware Analysis Labs\BinaryCollection\Chapter_12L
+Practical Malware Analysis Labs\BinaryCollection\Chapter_13L
+Practical Malware Analysis Labs\BinaryCollection\Chapter_14L
+Practical Malware Analysis Labs\BinaryCollection\Chapter_15L
+Practical Malware Analysis Labs\BinaryCollection\Chapter_16L
+Practical Malware Analysis Labs\BinaryCollection\Chapter_17L
+Practical Malware Analysis Labs\BinaryCollection\Chapter_18L
+Practical Malware Analysis Labs\BinaryCollection\Chapter_19L
+Practical Malware Analysis Labs\BinaryCollection\Chapter_1L
+Practical Malware Analysis Labs\BinaryCollection\Chapter_20L
+Practical Malware Analysis Labs\BinaryCollection\Chapter_21L
+Practical Malware Analysis Labs\BinaryCollection\Chapter_3L
+Practical Malware Analysis Labs\BinaryCollection\Chapter_5L
+Practical Malware Analysis Labs\BinaryCollection\Chapter_6L
+Practical Malware Analysis Labs\BinaryCollection\Chapter_7L
+Practical Malware Analysis Labs\BinaryCollection\Chapter_9L
+Practical Malware Analysis Labs\BinaryCollection
+Practical Malware Analysis Labs
